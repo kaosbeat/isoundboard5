@@ -1,1 +1,5 @@
-//taken from
+ $(document).ready(function(){
+//
+
+ });
+

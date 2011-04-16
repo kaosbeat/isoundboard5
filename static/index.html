@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>interactive soundboard v0</title>
+    <!--<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />-->
+    <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+    <script src="js/isound.js"></script>
+
+    <!--<script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>-->
+    </head>
+
+  <body>
+    <div id="image1"> <img src="img/amelia-earhart-1920s.jpg" onclick="play_single_sound();" ></div>
+    <audio id="audio1" src="snd/kduh.mp3" controls></audio>
+
+<script type="text/javascript">
+	function play_single_sound() {
+		document.getElementById('audio1').play();
+	}
+</script>
+		
+
+
+  </body>
+</html>
